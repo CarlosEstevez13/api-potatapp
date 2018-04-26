@@ -1,0 +1,18 @@
+{
+  "name": "api-potatapp",
+  "version": "1.0.0",
+  "description": "aplicacion para le gestion de fincas",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "potatapp",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.15.1"
+  }
+}
